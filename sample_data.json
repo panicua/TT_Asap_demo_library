@@ -1,0 +1,163 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$tve2r5ip7N4UDJMwedPNDS$6KbYxbcbqjP+96lqKmddjdX9sS7GiNPwYo3JWDp7uNU=",
+      "last_login": "2024-10-31T01:41:56.620Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@admin.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-10-31T01:38:58.919Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "books_app.book",
+    "pk": 2,
+    "fields": {
+      "title": "Kobzar",
+      "author": "Taras Shevchenko",
+      "published_date": "2024-10-31",
+      "isbn": "9780733426091",
+      "pages": 409,
+      "cover": "https://i.imgur.com/eMT8dKo.png",
+      "language": "Ukrainian"
+    }
+  },
+  {
+    "model": "books_app.book",
+    "pk": 3,
+    "fields": {
+      "title": "Harry Potter and the Half-Blood Prince",
+      "author": "J.K. Rowling",
+      "published_date": "2023-09-13",
+      "isbn": "9780733426092",
+      "pages": null,
+      "cover": null,
+      "language": "English"
+    }
+  },
+  {
+    "model": "books_app.book",
+    "pk": 4,
+    "fields": {
+      "title": "The Information: A History, a Theory, a Flood",
+      "author": "James Gleick",
+      "published_date": "2022-01-01",
+      "isbn": "9789833792429",
+      "pages": 527,
+      "cover": null,
+      "language": "English"
+    }
+  },
+  {
+    "model": "books_app.book",
+    "pk": 5,
+    "fields": {
+      "title": "Envisioning Information",
+      "author": "Edward R. Tufte",
+      "published_date": "1990-05-01",
+      "isbn": "9784214824539",
+      "pages": 129,
+      "cover": null,
+      "language": "English"
+    }
+  },
+  {
+    "model": "books_app.book",
+    "pk": 6,
+    "fields": {
+      "title": "The Art of Computer Programming",
+      "author": "Donald Knuth",
+      "published_date": "1968-07-01",
+      "isbn": "9780321751041",
+      "pages": 672,
+      "cover": null,
+      "language": "English"
+    }
+  },
+  {
+    "model": "books_app.book",
+    "pk": 7,
+    "fields": {
+      "title": "In Search of Lost Time",
+      "author": "Marcel Proust",
+      "published_date": "1913-01-01",
+      "isbn": "9780156949606",
+      "pages": 4215,
+      "cover": null,
+      "language": "French"
+    }
+  },
+  {
+    "model": "books_app.book",
+    "pk": 8,
+    "fields": {
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel Garcia Marquez",
+      "published_date": "1967-05-30",
+      "isbn": "9780060883287",
+      "pages": 417,
+      "cover": null,
+      "language": "Spanish"
+    }
+  },
+  {
+    "model": "books_app.book",
+    "pk": 9,
+    "fields": {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "published_date": "2011-10-25",
+      "isbn": "9780374533557",
+      "pages": 499,
+      "cover": null,
+      "language": "English"
+    }
+  },
+  {
+    "model": "books_app.book",
+    "pk": 10,
+    "fields": {
+      "title": "The Master and Margarita",
+      "author": "Mikhail Bulgakov",
+      "published_date": "1967-01-01",
+      "isbn": "9780679760801",
+      "pages": 384,
+      "cover": null,
+      "language": "Russian"
+    }
+  },
+  {
+    "model": "books_app.book",
+    "pk": 11,
+    "fields": {
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "published_date": "1866-01-01",
+      "isbn": "9780486415871",
+      "pages": 430,
+      "cover": null,
+      "language": "Russian"
+    }
+  },
+  {
+    "model": "books_app.book",
+    "pk": 12,
+    "fields": {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "published_date": "2015-02-10",
+      "isbn": "9780062316097",
+      "pages": 498,
+      "cover": null,
+      "language": "English"
+    }
+  }
+]

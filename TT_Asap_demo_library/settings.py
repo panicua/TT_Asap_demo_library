@@ -2,6 +2,7 @@ from datetime import timedelta
 from pathlib import Path
 
 from decouple import config, Csv
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -73,12 +74,9 @@ WSGI_APPLICATION = "TT_Asap_demo_library.wsgi.application"
 
 
 # Database
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
-}
+DATABASE_URL = config("DATABASE_URL", default="sqlite:///db.sqlite3")
+
+DATABASES = {"default": dj_database_url.parse(DATABASE_URL, conn_max_age=600)}
 
 
 # Password validation
