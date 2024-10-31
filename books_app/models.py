@@ -10,5 +10,8 @@ class Book(models.Model):
     cover = models.URLField(blank=True, null=True)
     language = models.CharField(max_length=50, blank=False)
 
+    class Meta:
+        ordering = ["title"]
+
     def __str__(self):
         return f"{self.title} (by {self.author})"
