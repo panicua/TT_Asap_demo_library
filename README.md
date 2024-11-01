@@ -33,4 +33,4 @@ This project is a simple **Library Management API** built using **Django REST Fr
 - **admin_user**. username: admin, password: admin
 
 ## SwaggerDEMO:
-[demo.png](github_images/swager_demo.png)
+![swager_demo.png](github_images/swager_demo.png)
