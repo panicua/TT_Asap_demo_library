@@ -1,6 +1,6 @@
 # TT_Asap_demo_library
 
-This project is a simple **Library Management API** built using **Django REST Framework** and **PostgreSQL**. It allows all CRUD operations with Books and many other features. The API supports user authentication with admin role (for mutations operations).
+This project is a simple **Library Management API** built using **Django REST Framework** and **PostgreSQL**. It supports complete CRUD operations for Books, along with other features.
 
 ## Features
 
@@ -33,4 +33,4 @@ This project is a simple **Library Management API** built using **Django REST Fr
 - **admin_user**. username: admin, password: admin
 
 ## SwaggerDEMO:
-[demo.png](github_images/swager_demo.png)
+![swager_demo.png](github_images/swager_demo.png)
