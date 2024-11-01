@@ -1,12 +1,11 @@
+from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import viewsets
 
+from books_app.filters import BookFilter
 from books_app.models import Book
+from books_app.pagination import BookListPagination
 from books_app.permissions import IsAdminOrReadOnly
 from books_app.serializers import BookSerializer
-from books_app.pagination import BookListPagination
-from books_app.filters import BookFilter
-
-from django_filters.rest_framework import DjangoFilterBackend
 
 
 class BookViewSet(viewsets.ModelViewSet):
