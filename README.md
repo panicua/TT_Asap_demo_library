@@ -20,6 +20,7 @@ This project is a simple **Library Management API** built using **Django REST Fr
 
 2. Create an `.env` file in the root of the project directory. You can use the `.env.example` file as a template. Don't forget to replace the placeholders with your own values:
    ```sh
+   cd TT_Asap_demo_library
    cp .env.example .env
    ```
 
